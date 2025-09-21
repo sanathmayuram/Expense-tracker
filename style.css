@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #90f1ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    position: relative;
+    z-index: 2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffef9f;
+    position: relative;
+    z-index: 1;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_app {
+    height: 30rem;
+    width: 20rem;
+    background-color: #ffd6e0;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+#name{
+    height: 20px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+.hover:hover {
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.hiiden {
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.hiiden.hidden {
+    display: none;
+}
+
+#income {
+    height: 20px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}    
+
+#expenses {
+    height: 20px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#login{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#Submit{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#amount {
+    height: 20px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
